@@ -8893,10 +8893,14 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .ftco-services .nav-link-wrap {
-  background: #31de79; }
+  background-color: rgba(0,0,0);
+  background-image: url(../images/about.jpg);
+  /* filter: brightness(0.5); */
+  /* opacity: .8 !important; */
+}
   @media (min-width: 768px) {
     .ftco-services .nav-link-wrap {
-      margin-bottom: -10px;
+      /* margin-bottom: -10px; */
       z-index: 1; } }
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {
@@ -8913,7 +8917,8 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.8);
   font-size: 20px;
   font-weight: 400;
-  position: relative; }
+  position: relative;
+  filter: brightness(0); }
   .ftco-services .nav-pills .nav-link:after {
     position: absolute;
     top: 20px;
