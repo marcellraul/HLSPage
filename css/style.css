@@ -9125,7 +9125,7 @@ textarea.form-control {
     .ftco-footer .ftco-footer-widget ul li a {
       color: rgba(255, 255, 255, 0.6); }
       .ftco-footer .ftco-footer-widget ul li a span {
-        color: rgba(255, 255, 255, 0.6); }
+        color: #fff; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
@@ -9569,7 +9569,7 @@ textarea.form-control {
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
-    color: rgba(255, 255, 255, 0.7); }
+    color: #fff; }
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
     vertical-align: top; }
@@ -9956,10 +9956,6 @@ textarea.form-control {
   color: white;
   font-size: 30px;
 }
-.ftco-footer-widget{
-  text-align: center;
-}
-
 .center-text{
   text-align: center;
 }
