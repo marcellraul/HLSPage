@@ -8908,7 +8908,7 @@ h1, h2, h3, h4, h5,
       z-index: 1; } }
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {
-      background: #31de79;
+      background: rgb(16, 38, 106);
       margin-top: 30px; } }
 
 .ftco-services .nav-pills p {
@@ -9921,7 +9921,11 @@ textarea.form-control {
     margin-left: -10%;
     color: white; }
   .tab-row > .col-md-8{
-    margin-left: -16%;
+    text-align: justify;
+  }
+  @media(min-width: 1050px) {
+    .tab-row > .col-md-8{
+    margin-left: -16%;}
   }
   .tab-pane > h1{
     color: rgb(0,255,255);
@@ -9930,4 +9934,8 @@ textarea.form-control {
   .tab-pane > h2{
     color: rgb(0,255,255);
     font-weight: bold;
+  }
+  .logotam{
+    width: 191px !important;
+    height: 54px !important;
   }
