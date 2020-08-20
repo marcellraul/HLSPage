@@ -16,6 +16,7 @@
     scrollProperty: 'scroll'
   });
 
+  
 
 	var fullHeight = function() {
 
@@ -44,9 +45,7 @@
 
    // Burger Menu
 	var burgerMenu = function() {
-
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
-
 			event.preventDefault();
 
 			if ( $('#ftco-nav').is(':visible') ) {
@@ -155,6 +154,10 @@
 
 	};
 	carousel();
+
+	$('.nav-link').on('click',function(){
+		$('.collapse').removeClass('show')
+	});
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
