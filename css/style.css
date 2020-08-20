@@ -7998,7 +7998,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {                                                        //////////////////////////////////////////////////////////////////////////////////
+body {
   font-family: "Nunito Sans", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
@@ -8994,12 +8994,6 @@ h1, h2, h3, h4, h5,
   display: block;
   width: 100%;
   overflow-x: hidden; }
-.ul-destacados {
-  list-style: none;
-  }
-.ul-destacados > li {
-  margin-left: -10%;
-  color: white; }
 
 .services-wrap {
   display: block;
@@ -9919,4 +9913,21 @@ textarea.form-control {
   }
   .slider-title-2{
     color: rgb(0,255,255) !important;
+  }
+  .ul-destacados {
+    list-style: none;
+    }
+  .ul-destacados > li {
+    margin-left: -10%;
+    color: white; }
+  .tab-row > .col-md-8{
+    margin-left: -16%;
+  }
+  .tab-pane > h1{
+    color: rgb(0,255,255);
+    font-weight: bold;
+  }
+  .tab-pane > h2{
+    color: rgb(0,255,255);
+    font-weight: bold;
   }
