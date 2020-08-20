@@ -8394,7 +8394,7 @@ h1, h2, h3, h4, h5,
           @media (min-width: 992px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
               position: absolute;
-              top: 50%;
+              /* top: 50%; */
               left: 0;
               -webkit-transform: translateY(-50%);
               -ms-transform: translateY(-50%);
@@ -8413,7 +8413,7 @@ h1, h2, h3, h4, h5,
           color: #31de79;
           background: #3A2EBD;
           position: absolute;
-          top: -60%;
+          top: -30%;
           left: -.7%;
           /* background: -moz-linear-gradient(-45deg, #9ff669 0%, #31de79 100%);
           background: -webkit-gradient(left top, right bottom, color-stop(0%, #9ff669), color-stop(100%, #31de79));
@@ -9962,4 +9962,21 @@ textarea.form-control {
 
 .center-text{
   text-align: center;
+}
+.privacy-div{
+  background: -prefix-linear-gradient(left, rgb(16,38,106), rgb(0,203,179)); 
+  background: linear-gradient(to right, rgb(16,38,106), rgb(0,203,179)); 
+  height: 60px;
+}
+
+.privacy-text{
+  text-align: center;
+  color: white;
+  padding: 1.5%;
+}
+
+.icons-div{
+  margin-top: 5%;
+  background: rgb(0, 203, 179);
+  height: 60px;
 }
