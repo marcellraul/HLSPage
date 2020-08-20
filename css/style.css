@@ -8994,6 +8994,12 @@ h1, h2, h3, h4, h5,
   display: block;
   width: 100%;
   overflow-x: hidden; }
+.ul-destacados {
+  list-style: none;
+  }
+.ul-destacados > li {
+  margin-left: -10%;
+  color: white; }
 
 .services-wrap {
   display: block;
@@ -9016,6 +9022,8 @@ h1, h2, h3, h4, h5,
     color: rgb(0,255,255);
     font-size: 24px;
     font-weight: bold; }
+  .services-wrap h6 {
+    color: #fff }
   .services-wrap p {
     color: #fff;
     margin-bottom: 0; }
