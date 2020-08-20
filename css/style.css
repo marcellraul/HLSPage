@@ -9109,7 +9109,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #00214E;
-  padding: 7em 0;
+  padding: 0 !important;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
