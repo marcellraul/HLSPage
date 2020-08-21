@@ -9248,9 +9248,11 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  /*background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;*/
+  background-color: #3A2EBD;
+ }
 
 .testimony-section {
   position: relative;
@@ -9344,7 +9346,7 @@ textarea.form-control {
     position: relative;
     margin: 0 auto;
     background-position: top center;
-    border: 8px solid rgb(58,46,189); }
+    /*border: 8px solid rgb(58,46,189);*/ }
     .testimony-wrap .user-img .quote {
       position: absolute;
       bottom: -10px;
@@ -9368,7 +9370,11 @@ textarea.form-control {
       -ms-border-radius: 50%;
       border-radius: 50%; }
       .testimony-wrap .user-img .quote i {
-        color: rgb(0, 250, 250); }
+        color: rgb(0, 250, 250);
+      font-size: 30px;
+      position: absolute;
+      top: -30px;
+      right: -15px; }
   .testimony-wrap .text {
     padding-top: 6em;
     margin-top: -65px;
@@ -9947,8 +9953,8 @@ textarea.form-control {
     color: #fff;
   }
   .milll{
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
   }
 .prin{
   text-align: center;
@@ -9974,7 +9980,8 @@ textarea.form-control {
 .icons-div{
   margin-top: 5%;
   background: rgb(0, 203, 179);
-  height: 70px;
+  /*height: 70px;*/
+  display: inline-table;
 }
 .mod{
   width: 152px; 

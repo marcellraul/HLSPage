@@ -38,7 +38,7 @@
             <li class="nav-item"><a href="https://wa.me/525538873107" target="_blank" class="nav-link"><img class="milll" src="rrss/Whatsapp.png" /></a></li>
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>PRODUCTOS</span></a></li>
             <li class="nav-item"><a href="#services-section" class="nav-link"><span>AZURE</span></a></li>
-            <li class="nav-item"><a href="#services-section" class="nav-link"><span>ASIGNACION DE PERSONAL</span></a></li>
+            <li class="nav-item"><a href="#services-section" class="nav-link" id="personal-link"><span>ASIGNACION DE PERSONAL</span></a></li>
 	          <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>TESTIMONIOS</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>CONTACTOS</span></a></li>
 	        </ul>
@@ -125,7 +125,7 @@
               
               <a class="nav-link px-4 mb-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"> <img class="tamn" src="icon/Icono Salesforce_Mesa de trabajo 1.png" /> SalesForce</a>
 
-              <a class="nav-link px-4 mb-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"> <img class="tamn" src="icon/Icono Asignación de personal_Mesa de trabajo 1.png" /> Asignación de personal </a>
+              <a id="personal-nav-link" class="nav-link px-4 mb-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"> <img class="tamn" src="icon/Icono Asignación de personal_Mesa de trabajo 1.png" /> Asignación de personal </a>
 
             </div>
           </div>
@@ -198,7 +198,7 @@
                 </div>
               </div>
 
-              <div class="tab-pane fade py-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+              <div id="personal-tab" class="tab-pane fade py-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
                 <h1 class="mb-4">Asignación de personal</h1>
                 <div class="row tab-row">
                   <div class="col-md-4">
@@ -308,7 +308,9 @@
           <div class="col-md-4">
             <div class="testimony-wrap center-text py-4 pb-5">
               <h4 class="name">Comunicaciones</h4>
-              <div class="user-img" style="background-image: url(logo/Televisa.png); background-color: #3A2EBD;">
+              <!--<div class="user-img" style="background-image: url(logo/Televisa.png); background-color: #3A2EBD;">-->
+                <div class="user-img">
+                  <img style="width: 80%; height: 40%; margin-top:15%;" src="logo/Televisa.png" />
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="icon-quote-left"></i>
                 </span>
@@ -321,7 +323,8 @@
           <div class="col-md-4">
             <div class="testimony-wrap center-text py-4 pb-5">
               <h4 class="name">Aseguradoras</h4>
-              <div class="user-img" class="avatar" style="background-image: url(logo/BX+.png); background-color: #3A2EBD; ">
+              <div class="user-img" class="avatar">
+                <img style="width: 70%; height: 35%; margin-top:15%;" src="logo/BX+.png" />
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="icon-quote-left"></i>
                 </span>
@@ -334,7 +337,8 @@
           <div class="col-md-4">
             <div class="testimony-wrap center-text py-4 pb-5">
               <h4 class="name">Aerolíneas</h4>
-              <div class="user-img" style="background-image: url(logo/Aeroméxico.png); background-color: #3A2EBD;">
+              <div class="user-img">
+                <img style="width: 150%; height: 80%; margin-top: -10%; margin-left: -25%;" src="logo/Aeroméxico.png" />
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="icon-quote-left"></i>
                 </span>
@@ -424,10 +428,10 @@
       </div>
     </section>
 
-    <div class="icons-div"><img src="logo/izzi.png" style="margin-left: 8%;"class="mod" />
-      <img src="logo/Aeroméxico.png" style="width: 178px; height: 80px; margin-right: 1.5%" /><img src="logo/BX+.png" class="modd" />
-      <img src="logo/Mobiik.png" class="mod" /><img src="logo/Televisa.png" class="modd" />
-      <img src="logo/Chadraui.png" class="modd" /><img src="logo/AZOR.png" class="mod" />
+    <div class="row icons-div"><img class="col-sm-4 col-md-2" src="logo/izzi.png" class="mod" />
+      <img class="col-sm-5 col-md-2" src="logo/Aeroméxico.png" /><img class="col-sm-3 col-md-1" style="padding: 0 !important" src="logo/BX+.png" class="mod" />
+      <img class="col-sm-3 col-md-2" src="logo/Mobiik.png" class="mod" /><img class="col-sm-3 col-md-1" style="padding: 0 !important" src="logo/Televisa.png" class="mod" />
+      <img class="col-sm-3 col-md-2" src="logo/Chadraui.png" class="mod" /><img class="col-sm-3 col-md-2" src="logo/AZOR.png" class="mod" />
     </div>
 		
  

@@ -154,6 +154,12 @@
 
 	};
 	carousel();
+	$('#personal-link').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#personal-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#personal-tab').addClass('active show')
+	})
 
 	$('.nav-link').on('click',function(){
 		$('.collapse').removeClass('show')
