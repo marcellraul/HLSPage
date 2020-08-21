@@ -154,6 +154,12 @@
 
 	};
 	carousel();
+	$('#azure-link').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#azure-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#azure-tab').addClass('active show')
+	})
 	$('#personal-link').on('click', function(){
 		$('.nav-link').removeClass('active')
 		$('#personal-nav-link').addClass('active')
