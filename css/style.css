@@ -8900,7 +8900,7 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .ftco-services .nav-link-wrap {
-  background: rgb(16, 38, 106);
+  background: rgb(79,137,200);
 }
   @media (min-width: 768px) {
     .ftco-services .nav-link-wrap {
@@ -8908,7 +8908,7 @@ h1, h2, h3, h4, h5,
       z-index: 1; } }
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {
-      background: rgb(16, 38, 106);
+      background: rgb(79,137,200);
       margin-top: 30px; } }
 
 .ftco-services .nav-pills p {
@@ -8999,7 +8999,7 @@ h1, h2, h3, h4, h5,
   display: block;
   width: 100%;
   position: relative;
-  background: rgba(16,38,106, 0.9);
+  background: rgba(16,38,106, 0.6);
   margin-bottom: 1px;
   padding: 30px 40px 30px 50px; }
   .services-wrap:first-child {
@@ -9011,7 +9011,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     width: 360%;
-    background: rgba(16,38,106, 0.9); }
+    background: rgba(16,38,106, 0.6); }
   .services-wrap h2 {
     color: rgb(0,255,255);
     font-size: 24px;
@@ -9251,12 +9251,12 @@ textarea.form-control {
   /*background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;*/
-  background-color: #3A2EBD;
+  background-color: #4F89C8;
  }
 
 .testimony-section {
   position: relative;
-  background: rgb(58,46,189); }
+  background: rgb(79,137,200); }
   .testimony-section .overlay {
     position: absolute;
     top: 0;
