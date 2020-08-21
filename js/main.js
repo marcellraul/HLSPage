@@ -166,7 +166,12 @@
 		$('.tab-pane').removeClass('active show')
 		$('#personal-tab').addClass('active show')
 	})
-
+	$('#fabrica-link').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#fabrica-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#fabrica-tab').addClass('active show')
+	})
 	$('.nav-link').on('click',function(){
 		$('.collapse').removeClass('show')
 	});
