@@ -9910,8 +9910,8 @@ textarea.form-control {
       text-transform: uppercase;
     }
   .btn-gradient{
-    background: -prefix-linear-gradient(left, rgb(16,38,106), rgb(0,203,179)); 
-    background: linear-gradient(to right, rgb(16,38,106), rgb(0,203,179));
+    background-image: -prefix-linear-gradient(left, rgb(16,38,106) 0%, rgb(0,203,179) 100%); 
+    background-image: linear-gradient(to right, rgb(16,38,106) 0%, rgb(0,203,179) 100%);
     font-weight: bold;
     color: white;
   }
