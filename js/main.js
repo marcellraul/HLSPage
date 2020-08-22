@@ -172,6 +172,18 @@
 		$('.tab-pane').removeClass('active show')
 		$('#fabrica-tab').addClass('active show')
 	})
+	$('#data-link').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#data-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#data-tab').addClass('active show')
+	})
+	$('#sales-link').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#sales-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#sales-tab').addClass('active show')
+	})
 	$('.nav-link').on('click',function(){
 		$('.collapse').removeClass('show')
 	});
