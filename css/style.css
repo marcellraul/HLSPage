@@ -10080,3 +10080,8 @@ textarea.form-control {
 .tammovil{
   width: 110%;
 }
+@media(max-width:460px){
+  .icofloogenera{
+    display: none;
+  }
+}
