@@ -187,6 +187,24 @@
 	$('.nav-link').on('click',function(){
 		$('.collapse').removeClass('show')
 	});
+	$('.fabri-btn').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#fabrica-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#fabrica-tab').addClass('active show')
+	})
+	$('.azure-btn').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#azure-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#azure-tab').addClass('active show')
+	})
+	$('.personal-btn').on('click', function(){
+		$('.nav-link').removeClass('active')
+		$('#personal-nav-link').addClass('active')
+		$('.tab-pane').removeClass('active show')
+		$('#personal-tab').addClass('active show')
+	})
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
