@@ -94,7 +94,8 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  /*margin-bottom: 1rem;*/ 
+}
 
 ol ol,
 ul ul,
@@ -3453,7 +3454,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.2rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -8078,11 +8079,11 @@ h1, h2, h3, h4, h5,
       padding-bottom: 20px;
       margin-right: 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 16px;
-    padding-top: .7rem;
+    font-size: 14px;
+    padding-top: .8rem;
     padding-bottom: .7rem;
     /*padding-left: 20px;*/
-    /*padding-right: 20px;*/
+    padding-right: 0px;
     color: rgb(37, 25, 167);
     font-weight: 800;
     opacity: 1 !important; }
@@ -8375,7 +8376,7 @@ h1, h2, h3, h4, h5,
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
-              top: -50px;
+              top: -25px;
               left: 0;
               bottom: 0;
               right: 0;
@@ -9092,7 +9093,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9966,6 +9967,12 @@ textarea.form-control {
   color: white;
   font-size: 30px;
 }
+.prinn{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
 .center-text{
   text-align: center;
 }
