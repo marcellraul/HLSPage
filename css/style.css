@@ -10084,4 +10084,17 @@ textarea.form-control {
   .icofloogenera{
     display: none;
   }
+  .img-w-100{
+    width: 100%;
+  }
+}
+
+.touch-manipulation{
+  touch-action: manipulation !important;
+}
+
+@media(max-width:767px){
+  .img-w-100{
+    width: 100% !important;
+  }
 }
