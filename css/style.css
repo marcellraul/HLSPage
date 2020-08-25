@@ -10152,4 +10152,7 @@ textarea.form-control {
   .azoricon{
     margin-left: 25% !important;
   }
+  .text-small-movil{
+    font-size: small;
+  }
 }
