@@ -8066,7 +8066,7 @@ h1, h2, h3, h4, h5,
       display: flex;
     }
     .ftco-navbar-light {
-      background: white !important;
+      background: transparent !important;
       position: relative;
       top: 0;
       padding-top: 0;
