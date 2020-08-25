@@ -10139,3 +10139,17 @@ textarea.form-control {
   margin-bottom: 0rem !important;
 
 }
+@media(max-width:767px){
+  .izziicon{
+    margin-left: 5% !important;
+  }
+  .aeromexicoicon{
+    margin-left: 2% !important;
+  }
+  .bxicon{
+    margin-left: 15% !important;
+  }
+  .azoricon{
+    margin-left: 25% !important;
+  }
+}
