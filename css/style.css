@@ -10031,10 +10031,9 @@ textarea.form-control {
 }
 
 .icons-div{
-  /*margin-top: 5%;*/
-  background: rgb(127, 165, 206);
-  /*height: 70px;*/
-  display: inline-table;
+  /* background: rgb(127, 165, 206); */
+  background: -prefix-linear-gradient(left, rgb(127, 165, 206), rgb(16,38,106)); 
+  background: linear-gradient(to right, rgb(127, 165, 206), rgb(16,38,106)); 
 }
 .mod{
   width: 152px; 
@@ -10100,6 +10099,7 @@ textarea.form-control {
 }
 .tammovil{
   width: 100%;
+  display: inline-table;
 }
 @media(max-width:460px){
   .icofloogenera{
