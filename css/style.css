@@ -8066,13 +8066,17 @@ h1, h2, h3, h4, h5,
       display: flex;
     }
     .ftco-navbar-light {
-      background: transparent !important;
+      background: #fff !important;
       position: relative;
       top: 0;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 15px;
-      padding-right: 15px; } }
+      padding-right: 15px; }
+    .wa-icon{
+      margin-right: 0 !important;
+      content: url('../rrss/Whatsapp.png') !important;
+    } }
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
@@ -10154,5 +10158,11 @@ textarea.form-control {
   }
   .text-small-movil{
     font-size: small;
+  }
+  .personal-btn{
+    margin-top: -4% !important;
+  }
+  .fabri-btn{
+    margin-top: -4% !important;
   }
 }
