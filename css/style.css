@@ -8109,7 +8109,8 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px;
-      margin-right: 0; } }
+      margin-right: 0;
+      align-items: normal !important; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 17px;
     padding-top: .7rem;
@@ -8215,6 +8216,9 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
+    .ftco-navbar-light.scrolled .wa-icon{
+      content: url('../rrss/Whatsapp.png');
+    }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .nav-item > .nav-link {
         padding-left: 0 !important;
@@ -10173,5 +10177,8 @@ textarea.form-control {
   }
   .fabri-btn{
     margin-top: -4% !important;
+  }
+  .azure-btn{
+    margin-top: -2% !important;
   }
 }
