@@ -474,7 +474,9 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; }
-
+.roww{
+  align-items: center;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -8209,7 +8211,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    /*background: #fff !important;*/
+    background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
@@ -10039,6 +10041,7 @@ textarea.form-control {
   /* background: rgb(127, 165, 206); */
   background: -prefix-linear-gradient(left, rgb(127, 165, 206), rgb(16,38,106)); 
   background: linear-gradient(to right, rgb(127, 165, 206), rgb(16,38,106)); 
+  height: 50px;
 }
 .mod{
   width: 152px; 
@@ -10104,7 +10107,7 @@ textarea.form-control {
 }
 .tammovil{
   width: 100%;
-  display: inline-table;
+  /*display: inline-table;*/
 }
 @media(max-width:460px){
   .icofloogenera{
@@ -10141,9 +10144,15 @@ textarea.form-control {
   padding: 0px !important;
   padding-bottom: 0rem !important;
   margin-bottom: 0rem !important;
-
+}
+.estiloss{
+  display: flex;
+  align-items: center;
 }
 @media(max-width:767px){
+  .icons-div {
+    height: 300px
+}
   .izziicon{
     margin-left: 5% !important;
   }
