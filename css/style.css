@@ -8422,7 +8422,7 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               width: 100%;
               position: absolute;
-              top: 0;
+              top: -60px;
               left: 0;
               right: 0;
               bottom: 0;
@@ -10170,7 +10170,7 @@ textarea.form-control {
     margin-left: 25% !important;
   }
   .text-small-movil{
-    font-size: small;
+    font-size: medium ;
   }
   .personal-btn{
     margin-top: -4% !important;
