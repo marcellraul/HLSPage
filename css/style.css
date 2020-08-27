@@ -3506,6 +3506,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.5rem; }
 
 .navbar-collapse {
+  
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   -webkit-box-flex: 1;
@@ -3513,7 +3514,9 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center; 
+  
+}
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -8059,6 +8062,7 @@ h1, h2, h3, h4, h5,
     .navbar-menu {
     margin-right: 10px;
     margin-left: 78px;
+   
     }
     .logotam{
       margin-left: 0px;
@@ -8068,13 +8072,16 @@ h1, h2, h3, h4, h5,
       display: flex;
     }
     .ftco-navbar-light {
-      background: #fff !important;
+      background:#51A0CA  !important;
       position: relative;
       top: 0;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 15px;
-      padding-right: 15px; }
+      padding-right: 15px; 
+     
+      
+    }
     .wa-icon{
       margin-right: 0 !important;
       content: url('../rrss/Whatsapp.png') !important;
@@ -10130,6 +10137,11 @@ textarea.form-control {
   .img-w-100{
     width: 100% !important;
   }
+  .white{
+    color: #fff;
+    font-weight: 900;
+  
+  }
 }
 .tallover{
   font-weight: 800;
@@ -10137,7 +10149,10 @@ textarea.form-control {
 }
 .carruselflee{
   margin-left: 0px;
+  color: #F1F3FC;
+  left: 1000px;
 }
+
 .titlecarrusel{
   font-weight: 800;
   letter-spacing: 6px;
@@ -10190,4 +10205,10 @@ textarea.form-control {
   #slider-software{
     content: url('../images/slider/test.jpeg');
   }
+  .white{
+    color: #fff;
+    font-weight: 900;
+  
+  }
+
 }
