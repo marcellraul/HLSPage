@@ -10181,4 +10181,13 @@ textarea.form-control {
   .azure-btn{
     margin-top: -2% !important;
   }
+  #slider-staff{
+    content: url('../images/slider/test.jpeg');
+  }
+  #slider-azure{
+    content: url('../images/slider/test.jpeg');
+  }
+  #slider-software{
+    content: url('../images/slider/test.jpeg');
+  }
 }
